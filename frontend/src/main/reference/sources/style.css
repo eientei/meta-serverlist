@@ -1,0 +1,118 @@
+
+   body {
+    font: 11pt Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-width: 1300px;
+    background: #FFF3F1;
+   }
+   header {
+    padding: 10px 170px 10px 170px;
+    background: #012D41;
+    height: 50px;
+    text-shadow: 1px 2px 1.5px rgba(0,0,0,0.3);
+    font-weight: 300;
+    margin: 0 auto;
+    color: #fff;
+   }
+   header div {
+    width: 20%; float: left; text-align: center; font-size: 120%; padding: 13px 0 0 0;
+   }
+          .logo {
+          font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-size: 45px !important;
+          text-shadow: 1px 2px 1.5px rgba(0,0,0,0.3);
+          font-weight: 300;
+          margin: 0 auto;
+          color: #fff;
+          padding-top: 0px !important;
+          }
+   nav {
+    padding: 0 170px 0 170px;
+    background: #1BA5B8;
+    height: 45px;
+    text-shadow: 1px 2px 1.5px rgba(0,0,0,0.3);
+    font-weight: 300;
+    margin: 0 auto;
+    color: #fff;
+   }
+   nav div {
+    width: 20%; float: left; text-align: center; font-size: 120%; padding: 10px 0 11px 0;
+   }
+   footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background: #012D41;
+    color: #fff;
+    width: 100%;
+   }
+   .avatar {
+    padding-left: 0px !important;
+   }
+   .avatar img {
+    padding: 10px; width: 70px; height: 70px; border-radius: 70px;
+   }
+   strong, .count, .members, .like, .join, .invoice, nav, header {
+    font-size: 120%;
+   }
+   .members {
+   	padding-top: 6px;
+   }
+   th {
+    font-size: 130%;
+    text-decoration: uppercase;
+   }
+   a {
+   	color: inherit;
+    text-decoration: none;
+   }
+   .selected {
+   	background-color: #6fd4e2;
+    font-weight: bold;
+   }
+   .online {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    margin: 4px 3px 0 7px;
+    float: left;
+    background-color: #6aff4d;
+    border: 1px;
+   }
+   .offline {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    margin: 4px 3px 0 7px;
+    float: left;
+    background-color: #989898;
+    border: 1px;
+   }
+   .micro {
+    width: 14px;
+    height: 14px;
+    margin: 4px 3px 0 7px;
+    float: left;
+    background: url('img/micro.png');
+   }
+   .like-button {
+    width: 14px;
+    height: 14px;
+    margin: 2px 3px 0 2px;
+    float: left;
+    background: url(img/like.png);
+    background-size: 14px 14px;
+   }
+   .like-button:hover {
+    width: 16px;
+    height: 16px;
+    margin: 2px 3px 0 0;
+    float: left;
+    transform: rotate(-20deg);
+    background: url(img/like.png);
+    background-size: 16px 16px;
+   }
+   .lang {
+   	float: right;
+   	padding-right: 20px;
+   }

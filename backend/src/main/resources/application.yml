@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/metaconference_serverlist
+    username: metaconference
+    data-password: metaconference
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
